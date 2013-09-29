@@ -105,6 +105,10 @@ mapping_table = {
         'path': '/views/{{view_id}}/execute.json',
         'method': 'GET',
     },
+    'get_tickets_from_view': {
+        'path': '/views/{{view_id}}/tickets.json',
+        'method': 'GET',
+    },
     'preview_view': {
         'path': '/views/preview.json',
         'method': 'POST',
